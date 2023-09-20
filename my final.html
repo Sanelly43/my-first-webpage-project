@@ -1,0 +1,138 @@
+<DOCTYPE html>
+ <html lang="en">
+    <head>
+    <meta charset= "utf-8"./>
+    <meta name= "viewport"content= "width= device-width, initial-scale= 1.0" />
+    <title>moringa powder</title>
+    <style>
+
+    body {
+        background-color:palegreen;
+    }
+            h1 {
+                text-align:center;
+                color: black;
+            }
+
+            h2{
+                text-align: center;
+                padding: 50 px;
+                font-size: 70 px;
+                border-radius: 4px;   
+            }
+
+            img {
+                display: block;
+                margin: 0 auto;
+                max-width: 100%;
+                border-radius: 6%;
+            
+            
+            }
+
+            p {
+                line-height: 1.5;
+                font-size: 80 px;
+                margin: 40 0 15 px;
+            }
+            
+
+            button{
+                display: block;
+                margin: 20px auto;
+                background-color: blue;
+                color:white;
+                font-size: 40 px;
+                padding: 15 px 20 px;
+                border: none;
+                border-radius: 6 px;
+                box-shadow: 5px 5px 10px rgba (0, 0, 0, 0, 4);
+                transition: all 200ms ease-in-out;
+            }
+
+            button:hover {
+                opacity: 0.9;
+                cursor: pointer;
+            }
+
+           container {
+            max-width: 500 px;
+            margin:0 auto;
+            padding: 30 px 60 px
+           }
+           
+           learn more {
+            display: block;
+            color: deeppink;
+            text-decoration: none;
+            margin-top: 10 px;
+            text-align: center;
+           }
+
+           learn more:hover {
+            text-decoration: none;
+           }
+
+           footer {
+            text-align: start;
+           }
+            
+         </style>
+         </head>
+
+        <body>
+       <div class= "container">
+        <h1> My morning favourite starter </h1>
+        <h2> My Superfood cup of green boost </h2>
+        </hr>
+
+        <img 
+        src = https://hips.hearstapps.com/hmg-prod/images/nutritional-supplement-moringa-powder-on-rustic-royalty-free-image-1659133952.jpg?crop=0.668xw:1.00xh;0.327xw,0&resize=1200:*
+        alt = moringa powder
+        class="center"
+        />
+        <br>
+        <p>
+        <strong>Moringa Powder</strong>
+        is a powder made from crushed moringa leaves. It is a complete protein containing all 9 amino acid
+        making it great choice for vegetarians.It is rich in antioxidants and other nutrients which commonly missing 
+        in the diets. Once grounded into fine powder you can it can be stored and kept for many months without refrigirator.  
+        It can be taken in the morning with your blended fruit of your choice, or add it in your plain yoghurt.
+        It is also used for treating various other diseases, from malaria and typhoid fever to
+        hypertension and diabetes.
+        </p>
+        <a href="https://en.wikipedia.org/wiki/organic moringa"
+           target="_blank"
+        >learn more on  wikipedia 
+        </a> 
+        <button class="buy-button">
+            👉 Buy Moringa powder
+        </button>
+        <p class="footer">
+         This page was Coded by 
+         <a href="https://www.Mnguni.io /"target= "_blank">
+            Sanelisiwe Mnguni
+         </a>
+         </p>
+        </div>
+        <script>
+         function   buy() {
+          let name = prompt ("what is your name");
+          let email = prompt ("what is your email address");
+          let emoji = prompt ("what is your favourite emoji")
+          if(email,length=== 0) {
+            alert("sorry "  + ", no email= no moringa powder 🙂");
+          }else {
+         alert (
+                "thank you, " + 
+                name +
+                "! we'll be in touch by email, while at it enjoy your moringa powder" + emoji
+                  );
+                }
+         }
+
+      let buyButton =document.querySelector("buy-Button");
+      buyButton:addEventListener("click", buy);  
+        </script>
+     </body>
+    </html>   
